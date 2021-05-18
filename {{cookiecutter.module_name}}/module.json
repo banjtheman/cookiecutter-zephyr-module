@@ -1,0 +1,4 @@
+{
+    "input_type": "{{cookiecutter.input_type}}",
+    "output_type": "{{cookiecutter.input_type}}"
+}
