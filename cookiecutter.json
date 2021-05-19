@@ -1,6 +1,4 @@
 {
     "module_name": "my_module",
-    "desc": "My module description",
-    "input_type": ["text","image","video","audio","json","xml","csv","folder","data","none"],
-    "output_type": ["text","image","video","audio","json","xml","csv","folder","data","none"]
+    "desc": "My module description"
 }

@@ -8,7 +8,7 @@ ADD requirements.txt /tmp/docker_environment/requirements.txt
 RUN apt-get update; apt-get install -y $(awk '{print $1'} /tmp/docker_environment/linux_packages.txt)
 
 # Install Python Dependencies
-RUN pip install -r /tmp/docker_environment/python_packages.txt
+RUN pip install --upgrade pip && pip install -r /tmp/docker_environment/requirements.txt
 
 # Add controller
 ADD controller.py /home/
